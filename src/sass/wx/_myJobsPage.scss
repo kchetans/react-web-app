@@ -1,0 +1,96 @@
+.my-jobs-page{
+
+  .filterContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.job-ats-page{
+
+  position: fixed;
+  top: 80px;
+  left: 16px;
+  right: 16px;
+  bottom: 10px;
+
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+
+    .col2{
+      height: 100%;
+      .tabs{
+        height: 100%;
+
+        .scrollbars{
+          position: absolute;
+          top:0;
+          bottom: 0;
+          width: 100%;
+        }
+      }
+    }
+
+    .col3{
+      .candidate-details{
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+      }
+    }
+  }
+
+  .candidates-tab-container{
+    background-color: $white;
+    position: absolute;
+    top: 50px;
+    right: 2.5px;
+    left:2.5px;
+    bottom: 0;
+  }
+}
+
+.my-job-header-display{
+
+  cursor: pointer;
+  border: 1px solid lighten(lightgrey,10%) ;
+
+  .coverpic {
+    height: 100px;
+  }
+
+  .stats-box {
+    @include display(block);
+    padding: 0.8rem 1.6rem;
+    text-align: center;
+    margin: 0 1.6rem 0 0;
+    width: 150px;
+
+    .number {
+      font-size: $font-size-h3*2;
+    }
+
+    .title {
+      font-size: $font-size-h3;
+    }
+  }
+
+  .job-details{
+
+    h3{
+      font-size: $font-size-h4;
+    }
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .recommended {
+    color: #f62424;
+    font-size: 14px;
+  }
+}

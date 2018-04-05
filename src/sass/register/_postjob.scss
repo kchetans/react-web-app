@@ -1,0 +1,19 @@
+.post-job{
+
+  .chip-selector{
+    display: inline-block;
+    padding: 12px 18px;
+    min-width: 60px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin-right: 16px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .selected{
+    background-color: $color-primary;
+  }
+
+}

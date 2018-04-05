@@ -1,0 +1,7 @@
+node_modules/**/*
+build/**/*
+.idea/**/*
+.idea/workspace.xml
+package-lock.json
+/src/config.json
+#/src/static/css/App.css

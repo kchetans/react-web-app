@@ -1,0 +1,115 @@
+.post-job{
+  .chip-selector{
+    @include display(inline-block);
+    padding: 12px 18px;
+    min-width: 60px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin-right: 16px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    &.selected{
+      background-color: #f62424;
+      color: white;
+    }
+  }
+
+  .breadcumb {
+    display: flex;
+    padding: 1.6rem 0.8rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    .item {
+      display: inline-block;
+      margin: 4px;
+      color: gray;
+
+      &.selected {
+        color: black;
+      }
+    }
+  }
+
+  .imageContainer {
+    @include display(block);
+    @include text-align(center);
+    padding: 1.6rem;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .postingPreviewTitle {
+    color: gray;
+    font-style: italic;
+    font-size: $font-size-lg;
+  }
+}
+
+.job-preview {
+  .contentContainer {
+    padding: 1.6rem;
+  }
+
+  h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  span{
+    &.titlePlaceholder {
+      color: gray;
+      font-style: italic;
+    }
+  }
+
+  .label {
+    display: inline-block;
+    padding: 6px;
+  }
+
+  .chip {
+    font-size: $font-size-lg;
+    display: inline-block;
+    background-color: #f62424;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    min-width: 100px;
+    text-align: center;
+    color: white;
+    margin-right: 0.8rem;
+  }
+
+  .salary {
+    display: block;
+    padding-top: 16px;
+    padding-left: 8px;
+  }
+
+  .posted-by{
+
+    .label {
+      color: gray;
+      font-style: italic;
+    }
+
+    .name {
+      color: #0d73d7;
+      font-style: italic;
+      cursor: pointer;
+    }
+
+    .company-name {
+      font-size: 1.2rem;
+      color: gray;
+      padding-left: 6px;
+    }
+  }
+
+}

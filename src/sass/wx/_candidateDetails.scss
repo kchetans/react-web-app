@@ -1,0 +1,37 @@
+.candidate-details{
+  .section {
+    padding: 16px;
+    margin-bottom: 10px;
+
+    .header {
+      background-color: lightgrey;
+      margin-left: -16px;
+      margin-top: -16px;
+      margin-right: -16px;
+
+      padding-left: 16px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    .content {
+      padding-top: 8px;
+    }
+
+    .experience {
+      .title {
+        font-size: $font-size-h4;
+      }
+
+      .companyName {
+        font-size: $font-size-lg;
+      }
+
+      .duration {
+        font-size: $font-size-base;
+      }
+    }
+
+
+  }
+}

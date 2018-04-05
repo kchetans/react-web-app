@@ -1,0 +1,49 @@
+.peopleSearch{
+  display: block;
+  position: relative;
+
+  .mainContainers {
+    display: flex;
+    min-height: 800px;
+    justify-content: space-between;
+  }
+
+  .filterContainer {
+    position: relative;
+    width: 95%;
+    border: 1px solid lightblue;
+  }
+
+  .peopleHeaderContainer {
+    width: 30%;
+  }
+}
+
+.peopleDetailContainer {
+  border: 1px solid lightblue;
+  padding: 0 !important;
+}
+
+.CandidateHeader {
+  display: block;
+  padding: 16px;
+  margin-bottom: 4px;
+  cursor: pointer;
+
+  .status_text {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .aboutme {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+
+    .title {
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.chatsContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.chat-message {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+  clear: both;
+
+  .card-pre-header {
+    color: gray;
+    text-transform: capitalize;
+  }
+
+  .main-container {
+    padding: 16px;
+    position: relative;
+  }
+
+  .chat-job-card {
+    width: 60%;
+    .chat-actions {
+      padding: 16px;
+      display: block;
+      text-align: right;
+      border-top: 1px solid lightgray;
+    }
+  }
+
+  .text-in {
+    text-align: left;
+    width: auto;
+    min-width: 100px;
+    float: left;
+    margin-right: 15%;
+    position: relative;
+  }
+
+  .text-out {
+    text-align: right;
+    float: right;
+    min-width: 120px;
+    width: auto;
+    margin-left: 15%;
+    position: relative;
+  }
+
+  .chat-status-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    vertical-align: text-bottom;
+    color: gray;
+  }
+
+  .chat-status-read {
+    color: darkblue;
+  }
+
+  .notification {
+    padding: 16px;
+    background-color: lightgoldenrodyellow;
+
+    .title {
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+
+}
